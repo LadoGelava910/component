@@ -1,0 +1,32 @@
+.hero_content {
+  height: calc(100vh - 150px);
+  background-image: url("https://res.cloudinary.com/dzxxb95vy/image/upload/v1649020164/111111111111111111111111111111111111111_bpd482.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  position: relative;
+}
+
+.hero_content section {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 38px;
+}
+
+.hero_btn_contact {
+  text-decoration: none;
+  color: #303438;
+  background-color: orange;
+  min-width: 200px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+}
