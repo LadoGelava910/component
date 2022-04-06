@@ -59,7 +59,7 @@ header {
 
 .nav_brand {
   height: 100px;
-  background-color: #1e381d;
+  background-color: orange;
   padding-left: 50px;
   white-space: nowrap;
   transform: skewX(20deg);
@@ -68,7 +68,7 @@ header {
 }
 
 .nav_brand img {
-  height: 100%;
+  height: 90%;
   transform: skewX(-20deg);
 }
 
@@ -109,6 +109,6 @@ li {
 }
 
 .active .menu_link {
-  color: black;
+  color: #303438;
   transform: skewX(-20deg);
 }

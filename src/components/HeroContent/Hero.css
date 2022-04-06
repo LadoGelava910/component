@@ -9,7 +9,7 @@
 
 .hero_content section {
   position: absolute;
-  top: 10px;
+  top: 15px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -29,4 +29,6 @@
   position: absolute;
   bottom: 50px;
   left: 100px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+

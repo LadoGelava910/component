@@ -18,7 +18,7 @@ const Hero = ({ language }) => {
         )}
       </section>
       <Link className="hero_btn_contact" to="/contact">
-        {language ? "CONTUCT US" : "დაგვიკავშირდი"}
+        {language ? "CONTACT US" : "დაგვიკავშირდი"}
       </Link>
     </div>
   );

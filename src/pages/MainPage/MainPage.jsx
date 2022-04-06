@@ -6,7 +6,7 @@ const MainPage = ({ language, setLanguage }) => {
   return (
     <>
       <div className="all_wrapper">
-        <Header language={language} setLanguage={setLanguage} />
+        <Header language={language} setLanguage={setLanguage} active="home"/>
         <Hero language={language} />
       </div>
     </>
