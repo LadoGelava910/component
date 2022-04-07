@@ -7,13 +7,15 @@ const Hero = ({ language }) => {
       <section>
         {language ? (
           <h1>
-            Build Your
-            <strong style={{ color: "orange" }}> Dream House!</strong>
+            Bring your
+            <strong style={{ color: "orange" }}> Dream House</strong>
+            into Reality
           </h1>
         ) : (
           <h1>
-            აიშენე შენი
-            <strong style={{ color: "orange" }}> ოცნების სახლი!</strong>
+            აქციე შენი 
+            <strong style={{ color: "orange" }}>ოცნების სახლი</strong>
+            რეალობად!
           </h1>
         )}
       </section>
