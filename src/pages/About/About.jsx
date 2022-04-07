@@ -4,6 +4,7 @@ import "./About.css"
 import ConstructionIcon from '@mui/icons-material/Construction';
 import FoundationIcon from '@mui/icons-material/Foundation';
 import PeopleIcon from '@mui/icons-material/People';
+import CarpenterIcon from '@mui/icons-material/Carpenter';
 import PrecisionManufacturingIcon from '@mui/icons-material/PrecisionManufacturing';
 import {Link} from "react-router-dom"
 const About = ({language, setLanguage}) => {
@@ -36,10 +37,10 @@ const About = ({language, setLanguage}) => {
 
  </p>
  <div className="white_divs">
+ <Link className="white_div" to="/services"><FoundationIcon style={{color: "orange",  fontSize: "54px"}}/><h4>{language ? "Architecture" : "არქიტექტურა"}</h4></Link >
      <Link className="white_div" to="/services"><ConstructionIcon style={{color: "orange", fontSize: "54px"}}/><h4>{language ? "Construction" : "კონსტრუქცია"}</h4></Link >
-     <Link className="white_div" to="/services"><FoundationIcon style={{color: "orange",  fontSize: "54px"}}/><h4>{language ? "Architecture" : "არქიტექტურა"}</h4></Link >
+     <Link className="white_div" to="/services"><CarpenterIcon style={{color: "orange",  fontSize: "54px"}}/><h4>{language ? "Refit, repair" :  "რემონტი"}</h4></Link>
      <Link className="white_div" to="/services"><PeopleIcon style={{color: "orange",  fontSize: "54px"}}/><h4>{language ? "Consulting" : "კონსულტაცია"}</h4></Link >
-     <Link className="white_div" to="/services"><PrecisionManufacturingIcon style={{color: "orange",  fontSize: "54px"}}/><h4>{language ? "Mechanics" :  "მექანიკა"}</h4></Link>
  </div>
             </section>
             <div className="about_banner_wrapper">

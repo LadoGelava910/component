@@ -12,10 +12,11 @@ const Hero = ({ language }) => {
             into Reality
           </h1>
         ) : (
-          <h1>
-            აქციე შენი 
-            <strong style={{ color: "orange" }}>ოცნების სახლი</strong>
+          <h1> <strong>
+            აქციე შენი <span style={{ color: "orange" }}></span>
+            <span style={{ color: "orange" }}>ოცნების სახლი </span> 
             რეალობად!
+            </strong> 
           </h1>
         )}
       </section>

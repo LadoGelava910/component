@@ -44,22 +44,22 @@ const Header = ({ language, setLanguage, active }) => {
                 {language ? "About us" : "ჩვენ შესახებ"}
               </Link>
             </li>
-            <li>
-              <Link className="menu_link" to="/home">
+             {/* <li>
+              <Link className="menu_link" to="/projects">
                 {language ? "Projects" : "პროექტები"}
               </Link>
             </li>
             <li>
-              <Link className="menu_link" to="/home">
+              <Link className="menu_link" to="/services">
                 {language ? "Services" : "სერვისები"}
               </Link>
             </li>
             <li>
-              <Link className="menu_link" to="/home">
+              <Link className="menu_link" to="/contact">
                 {language ? "Contact" : "კონტაქტი"}
               </Link>
-            </li>
-          </ul>
+            </li> */}
+          </ul> 
         </nav>
       </div>
     </header>

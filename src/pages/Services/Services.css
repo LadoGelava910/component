@@ -1,0 +1,4 @@
+.services_content ul{
+    flex-direction: column !important;
+    display: flex !important;
+}
