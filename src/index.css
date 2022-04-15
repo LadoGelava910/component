@@ -10,6 +10,7 @@ body {
     line-height: 1.42857143;
     color: #303438;
     width: 100%;
+    background-color: rgb(231, 231, 231);
 }
 
 code {

@@ -29,19 +29,29 @@ const Header = ({ language, setLanguage, active }) => {
         <nav>
           <Link className="nav_brand" to="/">
             <img
-              src="https://res.cloudinary.com/dzxxb95vy/image/upload/v1649050992/FullLogo_NoBuffer_3_hcxhe5.png"
-              alt="Component Construction"
+              src="https://freesvg.org/img/1552095835.png"
+              alt=""
             />
           </Link>
           <ul>
-            <li className={active==="home" && "active"}>
+            <li>
               <Link className="menu_link " to="/">
                 {language ? "Home" : "მთავარი"}
               </Link>
             </li>
-            <li className={active==="about" && "active"}>
+            <li>
               <Link className="menu_link" to="/about">
                 {language ? "About us" : "ჩვენ შესახებ"}
+              </Link>
+            </li>
+            <li>
+              <Link className="menu_link" to="/house">
+                {language ? "House" : "სახლი"}
+              </Link>
+            </li>
+            <li>
+              <Link className="menu_link" to="/office">
+                {language ? "Office" : "ოფისი"}
               </Link>
             </li>
              {/* <li>

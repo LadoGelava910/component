@@ -1,6 +1,6 @@
 .hero_content {
   height: calc(100vh - 150px);
-  background-image: url("https://res.cloudinary.com/dzxxb95vy/image/upload/v1649020164/111111111111111111111111111111111111111_bpd482.jpg");
+  background-image: url("https://furns-react.netlify.app/images/slider-image/slider-2-2.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -12,9 +12,20 @@
   top: 15px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 100%;
   color: white;
   font-size: 38px;
+  margin-top: -150px;
+  margin-left: 50px;
+}
+
+h1{
+  text-shadow: 2px 2px black;
+  animation: mymove 1s forwards;
+  position: relative;
+  /* transform: skewY(-20deg); */
 }
 
 .hero_btn_contact {
@@ -32,3 +43,8 @@
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
+
+@keyframes mymove {
+  from {top: -250px;}
+  to {top: 0px;}
+}

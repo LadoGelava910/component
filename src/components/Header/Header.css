@@ -25,6 +25,7 @@ header {
 .number p {
   /* color: #5bd25b; */
   color: orange;
+  
 }
 
 .email a,
@@ -95,7 +96,7 @@ ul {
 li {
   width: 140px;
   height: 100px;
-
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,11 +105,12 @@ li {
 }
 
 .active {
-  transform: skewX(20deg);
-  background: orange;
+  /* transform: skewX(20deg); */
+  color: orange;
 }
 
 .active .menu_link {
-  color: #303438;
-  transform: skewX(-20deg);
+  /* color: orange;
+   */
+  /* transform: skewX(-20deg); */
 }

@@ -6,23 +6,20 @@ const Hero = ({ language }) => {
     <div className="hero_content">
       <section>
         {language ? (
-          <h1>
-            Bring your
-            <strong style={{ color: "orange" }}> Dream House</strong>
-            into Reality
-          </h1>
+          <h1 style={{color: "orange"}}>#<strong>
+          Relax
+          </strong> 
+        </h1>
         ) : (
-          <h1> <strong>
-            აქციე შენი <span style={{ color: "orange" }}></span>
-            <span style={{ color: "orange" }}>ოცნების სახლი </span> 
-            რეალობად!
+          <h1 style={{color: "orange"}}>#<strong>
+            მოკალათდი
             </strong> 
           </h1>
         )}
       </section>
-      <Link className="hero_btn_contact" to="/contact">
+      {/* <Link className="hero_btn_contact" to="/contact">
         {language ? "CONTACT US" : "დაგვიკავშირდი"}
-      </Link>
+      </Link> */}
     </div>
   );
 };
